@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+
+  <div class="formContent">
+    <h1>Cadastro</h1>
+    <p>Preencha os campos abaixo</p>
+
+    <form method="POST" id="formulario">
+      <div class="inputArea">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" placeholder="Digite seu nome">
+      </div>
+
+      <div class="inputArea">
+        <label for="lastname">Sobrenome</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Digite seu sobrenome">
+      </div>
+
+      <div class="inputArea">
+        <label for="cpf">CPF</label>
+        <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00">
+      </div>
+
+      <div class="inputArea">
+        <label for="user">Usuário</label>
+        <input type="text" id="user" name="user" placeholder="Escolha um usuário">
+      </div>
+
+      <div class="inputArea">
+        <label for="password">Senha</label>
+        <input type="password" id="password" name="password" placeholder="********">
+      </div>
+
+      <div class="inputArea">
+        <label for="repeatPassword">Repetir senha</label>
+        <input type="password" id="repeatPassword" name="repeatPassword" placeholder="********">
+      </div>
+
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
