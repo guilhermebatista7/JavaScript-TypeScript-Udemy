@@ -1,8 +1,14 @@
-import { nome2 } from "./modulo1";
-import exportPadrao from "./modulo1"; 
-import * as tudo from "./modulo1";
-console.log(nome2);
+import "../public/assets/css/style.css"
+import {geraCPF} from "./modulo1";
 
-console.log(tudo);
+window.document.addEventListener('click', function(e){
+  if(e.target.classList.contains('geraCpf')){
+    buscarCpf();
+  }
+})
 
-console.log(exportPadrao(10, 5));
+function buscarCpf(){
+  const res = document.getElementById('res');
+  res.innerHTML = geraCPF();
+}
+

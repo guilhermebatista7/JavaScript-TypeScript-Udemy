@@ -1,0 +1,22 @@
+*{
+  background-color: rgb(68, 60, 75);
+
+}
+
+#app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.res{
+  background-color: azure;
+  padding: 1rem;
+}
+
+button{
+  color: whitesmoke;
+  background-color: rgba(137, 43, 226, 0.432);
+}
+
