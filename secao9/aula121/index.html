@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>aula118</title>
+  </head>
+  <body>
+    <div id="app">
+      <button class="senha">Gerar Senha</button>
+      <div class="groupRules">
+        <div class="rules">
+          <label for="numLines">Número de caracteres:</label>
+          <input type="number" name="numLines" id="numLines" style="width: 30px; background-color: white;">
+        </div>
+        <div class="rules">
+          <label for="addNum">Adicionar números:</label>
+          <input type="checkbox" name="addNum" id="addNum" style="width: 30px;">
+        </div>
+        <div class="rules">
+          <label for="addUpper">Letras maiúsculas:</label>
+          <input type="checkbox" name="addUpper" id="addUpper" style="width: 30px;">
+        </div>
+        <div class="rules">
+          <label for="addLower">Letras minúsculas:</label>
+          <input type="checkbox" name="addLower" id="addLower" style="width: 30px;">
+        </div>
+        <div class="rules">
+          <label for="addSpecial">Símbolos:</label>
+          <input type="checkbox" name="addSpecial" id="addSpecial" style="width: 30px;">
+        </div>
+      </div>
+      <p id="res" class="res">Clique para gerar</p>
+    </div>
+    <script type="module" src="./src/index.js"></script>
+  </body>
+</html>

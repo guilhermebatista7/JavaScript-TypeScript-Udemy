@@ -1,0 +1,37 @@
+*{
+  background-color: rgb(68, 60, 75);
+
+}
+
+#app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.res{
+  background-color: azure;
+  padding: 1rem;
+  width: 40%;
+  text-align: center;
+}
+
+button{
+  color: whitesmoke;
+  background-color: rgba(137, 43, 226, 0.432);
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.rules{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 20px;
+}
+
+.groupRules{
+  text-align: left;
+}
+
